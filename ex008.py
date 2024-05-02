@@ -1,0 +1,7 @@
+metros = float(input('Digite um valor em metros: '))
+print('O valor {} metros, equivale a: {:.0f} mm'.format(metros, (metros * 1000)))
+print('O valor {} metros, equivale a: {:.0f} cm'.format(metros, (metros * 100)))
+print('O valor {} metros, equivale a: {:.0f} dm'.format(metros, (metros * 10)))
+print('O valor {} metros, equivale a: {:.0f} dam'.format(metros, (metros / 10)))
+print('O valor {} metros, equivale a: {:.0f} hm'.format(metros, (metros / 100)))
+print('O valor {} metros, equivale a: {:.0f} km'.format(metros, (metros / 1000)))
